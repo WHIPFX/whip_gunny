@@ -1,0 +1,25 @@
+item,prop,kind,scale,width_mm,depth_mm,height_mm,collision_material,texture_px,px_per_mm,tris
+ammo_9mm,whip_ammobox_9mm,card box,3,343.8,175.8,97.5,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_556,whip_ammobox_556,card box,3,169.8,137.4,180.6,CARDBOARD_BOX,1024x1024,2.1,108
+ammo_50bmg,whip_ammobox_50bmg,card box,3,334.8,138.6,423.6,CARDBOARD_BOX,2048x1024,1.79,108
+ammo_45acp,whip_ammobox_45acp,card box,3,211.8,171,101.1,CARDBOARD_BOX,1024x1024,2.31,108
+ammo_50ae,whip_ammobox_50ae,card box,3,235.8,190.2,128.4,CARDBOARD_BOX,1024x1024,2.14,108
+ammo_357,whip_ammobox_357,card box,3,193.8,156.6,129.6,CARDBOARD_BOX,1024x1024,2.31,108
+ammo_44mag,whip_ammobox_44mag,card box,3,223.8,180.6,131.1,CARDBOARD_BOX,1024x1024,2.25,108
+ammo_22lr,whip_ammobox_22lr,card box,3,244.8,126.3,84.6,CARDBOARD_BOX,1024x1024,2.06,108
+ammo_762x39,whip_ammobox_762x39,card box,3,196.8,159,176.4,CARDBOARD_BOX,1024x1024,1.95,108
+ammo_762x51,whip_ammobox_762x51,card box,3,207.3,167.4,221.4,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_308,whip_ammobox_308,card box,3,406.8,87.6,221.7,CARDBOARD_BOX,2048x1024,2.25,108
+ammo_12gauge,whip_ammobox_12gauge,card box,3,358.8,358.8,197.4,CARDBOARD_BOX,2048x1024,1.81,108
+ammo_36navy,whip_ammobox_36navy,card box,3,325.8,166.8,61.5,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_musket,whip_ammobox_musket,card box,3,307.8,127.8,248.4,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_flare,whip_ammobox_flare,card box,3,444.6,226.2,264.8,CARDBOARD_BOX,2048x1024,1.81,108
+ammo_40mm,whip_ammobox_40mm,card box,2,437.2,293.2,248.8,CARDBOARD_BOX,2048x1024,1.54,108
+ammo_emp,whip_ammobox_emp,card box,3,376.8,253.8,168.1,CARDBOARD_BOX,2048x1024,1.79,108
+ammo_railgun,whip_ammobox_railgun,card box,3,262.8,109.8,240.6,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_energycell,whip_ammobox_energycell,card box,3,219.3,148.8,218.4,CARDBOARD_BOX,2048x1024,2.31,108
+ammo_taser,whip_ammobox_taser,card box,3,331.8,115.8,122.4,CARDBOARD_BOX,1024x1024,2.05,108
+ammo_firework,whip_ammobox_firework,card pack, open,1.4,264,177.2,588,CARDBOARD_BOX,2048x2048,1.2,4380
+ammo_rocket,whip_ammobox_rocket,wooden crate, open,1.4,1151.6,347.2,162.7,WOOD_SOLID_MEDIUM,2048x2048,0.89,2520
+ammo_homingrocket,whip_ammobox_homingrocket,hard case, open,1.4,1021.2,246.4,109.2,PLASTIC,2048x2048,1.09,1788
+ammo_minigun,whip_ammobox_minigun,ammo can, open,1.4,392,140,245,METAL_HOLLOW_MEDIUM,2048x2048,1.38,21064

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  whip_gunny's GTA sound definitions (29 Sep 2026). Built into data/whippy_gunny_sounds.dat54.rel by
+  build.cmd in this folder (CodeWalker's XML format).
+
+  Scripts play a sound by its name in a sound set:
+      PlaySoundFromEntity(-1, 'mag_seat', ped, 'whippy_gunny_sounds', false, 0)
+
+  mag_seat_sp   plays the mag_seat recording from the bank audiodirectory/whippy_gunny.
+                Header Flags say which fields follow (a bit each): 0x0000802C =
+                  Volume (bit 2)           in hundredths of a dB: -300 is -3 dB (Josh, after hearing -9)
+                  VolumeVariance (bit 3)   +/- hundredths of a dB per play: 150 is +/- 1.5 dB
+                  PitchVariance (bit 5)    +/- cents per play: 70 is about +/- 4%
+                  Category (bit 15)        the game's "scripted" mix group
+                Distance falloff is the game's default for a sound on an entity; walls muffle it.
+-->
+<Dat54>
+  <Version value="7314721" />
+  <ContainerPaths>
+    <Item>audiodirectory/whippy_gunny</Item>
+  </ContainerPaths>
+  <Items>
+    <Item type="SimpleSound" ntOffset="0">
+      <Name>mag_seat_sp</Name>
+      <Header>
+        <Flags value="0x0000802C" />
+        <Volume value="-300" />
+        <VolumeVariance value="150" />
+        <PitchVariance value="70" />
+        <Category>scripted</Category>
+      </Header>
+      <ContainerName>audiodirectory/whippy_gunny</ContainerName>
+      <FileName>mag_seat</FileName>
+      <WaveSlotIndex value="0" />
+    </Item>
+    <Item type="SoundSet" ntOffset="0">
+      <Name>whippy_gunny_sounds</Name>
+      <Header>
+        <Flags value="0xAAAAAAAA" />
+      </Header>
+      <SoundSets>
+        <Item>
+          <ScriptName>mag_seat</ScriptName>
+          <ChildSound>mag_seat_sp</ChildSound>
+        </Item>
+      </SoundSets>
+    </Item>
+  </Items>
+</Dat54>

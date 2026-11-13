@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapon Bench</title>
+    <!-- whip's own typefaces and tokens (--ui-*), from whip_core: no download from the internet. The icons are script.js's. -->
+    <link rel="stylesheet" href="https://cfx-nui-whip_core/html/css/fonts.css">
+    <link rel="stylesheet" href="https://cfx-nui-whip_core/html/css/base.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- whip_core's page tools: tools and tests read and press this page by its words, and its errors are kept for them
+         (whip_core's js/page-tools.js; lib/satellite.lua passes the asks in). -->
+    <script src="https://cfx-nui-whip_core/html/js/page-tools.js"></script>
+</head>
+<body>
+    <div id="workbench" class="hidden">
+        <!-- The bench's name: Config.WeaponBench.label -->
+        <div id="topHeader">
+            <span class="header-title-text" id="benchTitle">Weapon Bench</span>
+        </div>
+
+        <!-- A ring per slot the gun has, pinned to the gun (script.js renderSlots) -->
+        <div id="slotsContainer"></div>
+
+        <!-- A slot's list, opened by clicking it (script.js openSlotOptions) -->
+        <div id="optionsPopup" class="hidden tactical-panel">
+            <div class="panel-header">
+                <div class="header-content">
+                    <i id="popupIcon"></i>
+                    <span id="popupTitle">Select Attachment</span>
+                </div>
+                <button class="panel-close" id="popupClose"><i data-icon="close"></i></button>
+            </div>
+            <div class="panel-content" id="popupContent">
+                <!-- The slot's rows: what is fitted, or what the player carries for it (script.js buildOptionsPopup) -->
+            </div>
+        </div>
+
+        <!-- What a fit or a removal is doing, then how it went (script.js showStatus) -->
+        <div id="statusIndicator" class="hidden">
+            <div class="status-inner">
+                <div class="status-icon">
+                    <i id="statusIcon" data-icon="working"></i>
+                </div>
+                <span id="statusText">Processing...</span>
+                <div class="status-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The keys along the bottom -->
+        <div id="controlStrip">
+            <!-- key-only / pad-only: the mouse's words, or a controller's buttons (whip_core's pictures of
+                 them) while one drives the bench. script.js padHints fills the pad's. -->
+            <div class="control-group left">
+                <div class="control-hint esc-hint key-only">
+                    <kbd>ESC</kbd>
+                    <span>Close</span>
+                </div>
+                <div class="control-hint esc-hint pad-only">
+                    <img class="pad-g" src="https://cfx-nui-whip_core/html/img/pad/b.svg" alt="">
+                    <span id="padBackText">Close</span>
+                </div>
+            </div>
+            <div class="control-group center">
+                <div class="rotate-hint">
+                    <div class="rotate-icon"><i data-icon="rotate"></i></div>
+                    <span class="rotate-text key-only">DRAG TO ROTATE WEAPON</span>
+                    <span class="rotate-text pad-only"><img class="pad-g" src="https://cfx-nui-whip_core/html/img/pad/rs.svg" alt="">TO ROTATE WEAPON</span>
+                </div>
+            </div>
+            <div class="control-group right pad-only" id="padHintsRight"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

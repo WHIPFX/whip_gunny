@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  whip_gunny's GTA audio bank (29 Sep 2026): the recordings the game plays. Built into
+  audiodirectory/whippy_gunny.awc by build.cmd in this folder (CodeWalker's XML format).
+
+  mag_seat   one round going into a magazine: mag_seat.wav, mono 16-bit PCM, 48 kHz, 10459 samples,
+             click 54 ms in. Samples must match the wav if it is ever replaced.
+-->
+<AudioWaveContainer>
+  <Version value="1" />
+  <ChunkIndices value="True" />
+  <Streams>
+    <Item>
+      <Name>mag_seat</Name>
+      <FileName>mag_seat.wav</FileName>
+      <Chunks>
+        <Item>
+          <Type>data</Type>
+        </Item>
+        <Item>
+          <Type>format</Type>
+          <Codec>PCM</Codec>
+          <Samples value="10459" />
+          <SampleRate value="48000" />
+          <Headroom value="0" />
+          <PlayBegin value="0" />
+          <PlayEnd value="0" />
+          <LoopBegin value="0" />
+          <LoopEnd value="0" />
+          <LoopPoint value="-1" />
+          <Peak unk="0" />
+        </Item>
+      </Chunks>
+    </Item>
+  </Streams>
+</AudioWaveContainer>

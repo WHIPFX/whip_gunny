@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fwClipSetManager>
+  <clipSets>
+    <Item type="fwClipSet" key="whip@Cover_FirstPerson_Wpn_ShotgunLo">
+      <fallbackId>whip@hash_94166F04</fallbackId>
+      <clipDictionaryName>cover@first_person@weapon@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasLeftAimBlindFireGrip</Item>
+        <Item>UseWeaponHolding</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@Cover_FirstPerson_Wpn_ShotgunSawnoff">
+      <fallbackId>whip@hash_91EC33F2</fallbackId>
+      <clipDictionaryName>cover@first_person@weapon@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasLeftAimBlindFireGrip</Item>
+        <Item>UseWeaponHolding</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@Cover_Wpn_ShotgunLo">
+      <fallbackId>whip@pump@cover@weapon@2h</fallbackId>
+      <clipDictionaryName>whip@cover@weapon@reloads@rifle@pump_shotgun</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@Cover_Wpn_ShotgunSawnoff">
+      <fallbackId>whip@sawnoff@hash_D67D2D14</fallbackId>
+      <clipDictionaryName>whip@cover@weapon@reloads@rifle@pump_sawnoff</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_666E7CFA">
+      <fallbackId>whip@weapons@rifle@lo@pump</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@generic@assault_rifle@shared@core</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasLeftAimGrip</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_78AE4344">
+      <fallbackId>whip@weapons@rifle@lo@pump</fallbackId>
+      <clipDictionaryName>weapons@rifle@lo@stealth</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_91EC33F2">
+      <fallbackId>whip@Cover_Wpn_ShotgunSawnoff</fallbackId>
+      <clipDictionaryName>cover@first_person@weapon@blindfire_grips@right_side@sawnoff</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasLeftAimBlindFireGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_94166F04">
+      <fallbackId>whip@hash_D67D2D14</fallbackId>
+      <clipDictionaryName>cover@first_person@weapon@blindfire_grips@right_side@pump_shotgun</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasLeftAimBlindFireGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_D67D2D14">
+      <fallbackId>whip@Cover_Wpn_ShotgunLo</fallbackId>
+      <clipDictionaryName>whip@cover@first_person@weapon@reloads@rifle@pump_shotgun</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@hash_F9863271">
+      <fallbackId>whip@weapons@rifle@lo@sawnoff</fallbackId>
+      <clipDictionaryName>weapons@rifle@lo@stealth</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_lt@generic@shotgun@sawnoff@w_fire">
+      <fallbackId>weapons@first_person@aim_lt@generic@shotgun@sawnoff@</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@sawnoff</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasLeftAimGrip</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_lt@generic@shotgun@shared@core@w_fire">
+      <fallbackId>weapons@first_person@aim_lt@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasLeftAimGrip</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@pump_shotgun_str">
+      <fallbackId>weapons@first_person@aim_rng@generic@assault_rifle@shared@core</fallbackId>
+      <clipDictionaryName>whip@weapons@first_person@aim_rng@generic@shotgun@pump_shotgun_str</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@generic@shotgun@sawnoff@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasLeftAimGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@str">
+      <fallbackId>weapons@first_person@aim_rng@generic@assault_rifle@shared@core</fallbackId>
+      <clipDictionaryName>whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@str</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@w_fire">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@sawnoff</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_grip_l" />
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasLeftAimGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@shared@core">
+      <fallbackId>whip@hash_666E7CFA</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@generic@shotgun@shared@core</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasLeftAimGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@generic@shotgun@shared@core@w_fire">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasLeftAimGrip</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@a">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@w_fire</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@a</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@b">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@w_fire</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@b</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@c">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@w_fire</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@sawnoff@fidgets@c</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@a">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@a</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@b">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@b</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@c">
+      <fallbackId>whip@weapons@first_person@aim_rng@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>weapons@first_person@aim_rng@p_m_zero@shotgun@shared@fidgets@c</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+        <Item>HasBreatheHighAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_scope@generic@shotgun@sawnoff@w_fire">
+      <fallbackId>weapons@first_person@aim_scope@generic@shotgun@sawnoff@</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@sawnoff</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasLeftAimGrip</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@first_person@aim_scope@generic@shotgun@shared@core@w_fire">
+      <fallbackId>weapons@first_person@aim_scope@generic@shotgun@shared@core</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="w_fire" />
+      </clipItems>
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>HasIntro</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasBreatheHighAdditives</Item>
+        <Item>HasLeftAimGrip</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@pump">
+      <fallbackId>weapons@rifle@lo@</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasBwdAdditive</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+        <Item>HasWeaponSprint</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@pump@f">
+      <fallbackId>whip@weapons@rifle@lo@pump</fallbackId>
+      <clipDictionaryName>weapons@rifle@f</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasBwdAdditive</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+        <Item>HasWeaponSprint</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@pump@stealth">
+      <fallbackId>whip@hash_78AE4344</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump_stealth</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@pump_str">
+      <fallbackId />
+      <clipDictionaryName>whip@weapons@rifle@lo@pump_str</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>UseAdditives</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@sawnoff">
+      <fallbackId>whip@weapons@rifle@lo@pump</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@sawnoff</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasWeaponSprint</Item>
+        <Item>HasIntro</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@sawnoff@f">
+      <fallbackId>whip@weapons@rifle@lo@sawnoff</fallbackId>
+      <clipDictionaryName>weapons@rifle@f</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasSettle</Item>
+        <Item>HasWeaponSprint</Item>
+        <Item>HasIntro</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@sawnoff@stealth">
+      <fallbackId>whip@hash_F9863271</fallbackId>
+      <clipDictionaryName>whip@weapons@rifle@lo@pump_stealth</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags>
+        <Item>HasFireAnim</Item>
+        <Item>UseAdditives</Item>
+        <Item>HasIntro</Item>
+        <Item>HasSettle</Item>
+      </moveNetworkFlags>
+    </Item>
+    <Item type="fwClipSet" key="whip@weapons@rifle@lo@sawnoff_str">
+      <fallbackId />
+      <clipDictionaryName>whip@weapons@rifle@lo@sawnoff_str</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@sawnoff@hash_D67D2D14">
+      <fallbackId>whip@sawnoff@cover@weapon@2h</fallbackId>
+      <clipDictionaryName>whip@sawnoff@cover@first_person@weapon@reloads@rifle@pump_shotgun</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@pump@cover@move@base@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@pump@cover@move@base@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@pump@cover@move@extra@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@pump@cover@move@extra@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@pump@cover@weapon@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@pump@cover@weapon@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@sawnoff@cover@move@base@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@sawnoff@cover@move@base@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@sawnoff@cover@move@extra@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@sawnoff@cover@move@extra@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="whip@sawnoff@cover@weapon@2h">
+      <fallbackId />
+      <clipDictionaryName>whip@sawnoff@cover@weapon@2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+  </clipSets>
+  <clipDictionaryMetadatas>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@rifle@lo@pump">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@rifle@lo@pump_str">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@rifle@lo@pump_stealth">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@rifle@lo@sawnoff">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@rifle@lo@sawnoff_str">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@first_person@aim_rng@generic@shotgun@pump_shotgun_str">
+      <streamingPolicy>SP_SINGLEPLAYER_RESIDENT SP_MULTIPLAYER_RESIDENT</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@weapons@first_person@aim_rng@generic@shotgun@sawnoff@str">
+      <streamingPolicy>SP_SINGLEPLAYER_RESIDENT SP_MULTIPLAYER_RESIDENT</streamingPolicy>
+      <memoryGroup>MG_Weapons</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@cover@weapon@reloads@rifle@pump_sawnoff">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@cover@weapon@reloads@rifle@pump_shotgun">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@cover@first_person@weapon@reloads@rifle@pump_shotgun">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@sawnoff@cover@first_person@weapon@reloads@rifle@pump_shotgun">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@pump@cover@move@base@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@pump@cover@move@extra@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@pump@cover@weapon@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@sawnoff@cover@move@base@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@sawnoff@cover@move@extra@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item type="fwClipDictionaryMetadata" key="whip@sawnoff@cover@weapon@2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Cover</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+  </clipDictionaryMetadatas>
+</fwClipSetManager>

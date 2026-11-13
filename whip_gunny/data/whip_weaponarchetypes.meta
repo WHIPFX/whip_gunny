@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+  <InitDatas>
+    <Item>
+      <modelName>w_sg_whip_pumpshotgun</modelName>
+      <txdName>w_sg_whip_pumpshotgun</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_sg_whip_sawnoff</modelName>
+      <txdName>w_sg_whip_sawnoff</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_ar_whip_assaultrifle</modelName>
+      <txdName>w_ar_whip_assaultrifle</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_sr_whip_sniperrifle</modelName>
+      <txdName>w_sr_whip_sniperrifle</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_pi_whip_revolver</modelName>
+      <txdName>w_pi_whip_revolver</txdName>
+      <ptfxAssetName>weap_revolver</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_pi_whip_revolvermk2</modelName>
+      <txdName>w_pi_whip_revolvermk2</txdName>
+      <ptfxAssetName>weap_revolver</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_pi_whip_wep1_gun</modelName>
+      <txdName>w_pi_whip_wep1_gun</txdName>
+      <ptfxAssetName>weap_xm_revolver</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_pi_whip_wep2_gun</modelName>
+      <txdName>w_pi_whip_wep2_gun</txdName>
+      <ptfxAssetName>weap_xm_revolver</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_bat</modelName>
+      <txdName>w_me_whip_bat</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_dagger</modelName>
+      <txdName>w_me_whip_dagger</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_gclub</modelName>
+      <txdName>w_me_whip_gclub</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_hatchet</modelName>
+      <txdName>w_me_whip_hatchet</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_knife_01</modelName>
+      <txdName>w_me_whip_knife_01</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_me_whip_machette_lr</modelName>
+      <txdName>w_me_whip_machette_lr</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_ar_whip_assaultrifle_mag1</modelName>
+      <txdName>w_ar_whip_assaultrifle_mag1</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_ar_whip_assaultrifle_mag2</modelName>
+      <txdName>w_ar_whip_assaultrifle_mag1</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+    <Item>
+      <modelName>w_pi_whip_wep2_gun_mag1</modelName>
+      <txdName>w_pi_whip_wep2_gun</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="50" />
+    </Item>
+  </InitDatas>
+</CWeaponModelInfo__InitDataList>

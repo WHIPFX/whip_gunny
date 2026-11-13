@@ -1,0 +1,3934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedModelInfo__PersonalityDataList>
+	<MovementModeUnholsterData>
+		<Item>
+			<Name>UNHOLSTER_UNARMED</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_2H_MELEE</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>2h_melee_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_1H</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>1h_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>1h_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_2H</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>2h_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>2h_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_MINIGUN</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>mini_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>mini_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>mini_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>mini_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>mini_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>mini_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>mini_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>mini_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_melee</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>mini_holster_2h_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_UNARMED_STEALTH</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_2H_MELEE_STEALTH</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>unarmed_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_1H_STEALTH</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>1h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>1h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>1h_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+		<Item>
+			<Name>UNHOLSTER_2H_STEALTH</Name>
+			<UnholsterClips>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+					</Weapons>
+					<Clip>2h_holster_2h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+					</Weapons>
+					<Clip>2h_holster_1h</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_BAT</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_DAGGER</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_GOLFCLUB</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_HATCHET</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_KNIFE</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+				<Item>
+					<Weapons>
+						<Item>WEAPON_WHIP_MACHETE</Item>
+					</Weapons>
+					<Clip>2h_holster_unarmed</Clip>
+				</Item>
+			</UnholsterClips>
+		</Item>
+	</MovementModeUnholsterData>
+	<MovementModes>
+		<Item>
+			<Name>DEFAULT_ACTION</Name>
+			<MovementModes>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@1H</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@1H</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@1H</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_ACTION</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@1H</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_weapon@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@2h_melee</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@UNARMED</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_golfclub@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_golfclub@trans@default</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@UNARMED</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@trans@unarmed</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@GENERIC@TRANS@UNARMED</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@1h</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@1h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@1h</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_STEALTH</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@1h</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h_melee</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@unarmed</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@2h_melee</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@unarmed</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@unarmed</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@trans@unarmed</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+			</MovementModes>
+		</Item>
+		<Item>
+			<Name>MP_FEMALE_ACTION</Name>
+			<MovementModes>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@mp_female@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@armed@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@mp_female@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@armed@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@mp_female@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@armed@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@mp_female@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@armed@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@ARMED@1H@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@ARMED@1H@TRANS</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@ARMED@1H@TRANS</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_ACTION</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@ARMED@1H@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_weapon@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@armed@2h_melee@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_golfclub@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_golfclub@trans@mp_female</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@mp_female@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@mp_female@unarmed@trans@</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@1H@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@1H@TRANS</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@1H@TRANS</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_STEALTH</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@1H@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h_melee@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@2h_melee@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@mp_female@unarmed@trans</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+			</MovementModes>
+		</Item>
+		<Item>
+			<Name>MICHAEL_ACTION</Name>
+			<MovementModes>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_zero@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_zero@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_zero@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_zero@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_ACTION</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_zero@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_weapon@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_weapon@trans@p_m_zero</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_golfclub@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_golfclub@trans@p_m_zero</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_zero@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_STEALTH</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_zero@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_zero</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_zero</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_zero@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+			</MovementModes>
+		</Item>
+		<Item>
+			<Name>FRANKLIN_ACTION</Name>
+			<MovementModes>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_one@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_one@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_one@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_one@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_ACTION</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_one@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_weapon@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_weapon@trans@p_m_one</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_golfclub@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_golfclub@trans@p_m_one</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_one@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_STEALTH</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_one@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_one</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_one</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_one@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+			</MovementModes>
+		</Item>
+		<Item>
+			<Name>TREVOR_ACTION</Name>
+			<MovementModes>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_two@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_two@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_two@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_two@armed@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_ACTION</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@armed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@p_m_two@armed@1H@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@ARMED@1H@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_weapon@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_weapon@trans@p_m_two</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_action@generic@2h_melee_golfclub@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@generic@2h_melee_golfclub@trans@p_m_two</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_action@p_m_two@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_action@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId />
+								<WeaponClipFilterId />
+								<UpperBodyShadowExpressionEnabled value="false" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="true" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+				<Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_PUMPSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SAWNOFFSHOTGUN</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_ASSAULTRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_SNIPERRIFLE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@2h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="true" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@2h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_REVOLVER_MK2</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DOUBLEACTION</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@1h@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>ANIM@WEAPONS@PISTOL@DOUBLEACTION_HOLSTER_STEALTH</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_NAVYREVOLVER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>move_stealth@p_m_two@1h@upper</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="true" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@1h@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_1H_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_BAT</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_two</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_DAGGER</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_GOLFCLUB</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@generic@2h_melee_weapon@p_m_two</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_2H_MELEE_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_HATCHET</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_KNIFE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>upperbodyandik_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitionBlendOutTime value="0.5" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<UnholsterClipSetId>move_stealth@p_m_two@holster</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+					<Item>
+						<Weapons>
+							<Item>WEAPON_WHIP_MACHETE</Item>
+						</Weapons>
+						<ClipSets>
+							<Item>
+								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+								<UpperBodyShadowExpressionEnabled value="true" />
+								<UpperBodyFeatheredLeanEnabled value="false" />
+								<UseWeaponAnimsForGrip value="false" />
+								<UseLeftHandIk value="false" />
+								<IdleTransitions>
+									<Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+								</IdleTransitions>
+								<IdleTransitionBlendOutTime value="0.500000" />
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
+								<UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH" />
+							</Item>
+						</ClipSets>
+					</Item>
+				</Item>
+			</MovementModes>
+		</Item>
+	</MovementModes>
+</CPedModelInfo__PersonalityDataList>
