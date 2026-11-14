@@ -173,10 +173,10 @@ function DrawWeapon(slot, pocket, quick)
     drawing = draw
     local success, drawn = GunnyCallback('whip_gunny:equipWeapon', GunnySlot(slot, pocket))
     if not success then
-        local why = type(drawn) == 'string' and drawn or 'Cannot equip weapon'
-        GunnyNotify(why, 'error')
+        local refused = type(drawn) == 'string' and drawn or 'Cannot equip weapon'
+        GunnyNotify(refused, 'error')
         drawing, isEquipping = nil, false
-        return false, why
+        return false, refused
     end
     local hash, ammo, magName, attachments = drawn.hash, drawn.ammo, drawn.magazine, drawn.attachments
     GunnyDebugPrint('Equip', slot, pocket, '- server:', hash, ammo, magName)
@@ -222,10 +222,10 @@ function DrawWeapon(slot, pocket, quick)
         if not tellHolstered(ammo, drawn.countVersion) then
             print('[GUNNY] WARNING: the server refused the holster of a weapon this game build does not have')
         end
-        local why = ('This server\'s version of the game has no %s'):format(weaponConfig.label or weaponName)
-        GunnyNotify(why, 'error')
+        local missing = ('This server\'s version of the game has no %s'):format(weaponConfig.label or weaponName)
+        GunnyNotify(missing, 'error')
         isEquipping = false
-        return false, why
+        return false, missing
     end
 
     local throwable = Config.IsThrowable(weaponConfig)
@@ -284,6 +284,7 @@ end
 ---@return table gun  the record it was
 local function letGo(ped, remove)
     local gun = CurrentWeapon
+    ---@cast gun -nil   -- called only with a gun drawn
     if remove then RemoveWeaponFromPed(ped, gun.hash) end
     permitGun(gun.hash, false)
     CurrentWeapon = nil

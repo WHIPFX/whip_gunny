@@ -29,7 +29,7 @@ RegisterGunnyEvent('whip_gunny:server:shotFired', {
         -- Bounded: one trigger pull cannot claim to have emptied a magazine.
         {'shotsFired', 'int', 1, 10, 1},
     },
-}, function(source, player, shotsFired)
+}, function(source, _, shotsFired)
     -- The server's own record of the drawn gun (or the one just put away: the top of this file), still in the slot it
     -- was drawn from: one moved away is put away rather than fired for free.
     local slotData, equipped, late = GunnyDrawnWeapon(source, true)
@@ -100,7 +100,7 @@ RegisterGunnyEvent('whip_gunny:server:syncAmmo', {
         {'ammoCount',    'int', 0, 9999},
         {'countVersion', 'int', 0, 2147483647, 0},
     },
-}, function(source, player, ammoCount, countVersion)
+}, function(source, _, ammoCount, countVersion)
     local slotData, equipped, late = GunnyDrawnWeapon(source, true)
     if not equipped then GunnyNoDrawRecord(source) return end
     if not slotData then

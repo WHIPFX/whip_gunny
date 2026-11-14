@@ -323,7 +323,7 @@ AddEventHandler('whip_core:player:died', closeBench)
 AddEventHandler('whip_core:player:logout', closeBench)
 GunnyAfterHolster(closeBench)
 
-RegisterNUICallback('close', function(data, cb)
+RegisterNUICallback('close', function(_, cb)
     closeBench()
     cb('ok')
 end)

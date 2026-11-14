@@ -38,7 +38,7 @@ end
 
 -- Opening the bench: the gun arrives as whip's 'slot' param (this player's own pocket, holding one of gunny's weapons).
 RegisterGunnyCallback('whip_gunny:getWorkbenchData', { params = { { 'weapon', 'slot', { item = GunnyWeaponItems } } } },
-function(source, player, weapon)
+function(source, _, weapon)
     local attachmentConfig = Config.WeaponAttachments[weapon.item]
     if not Config.GetWeapon(weapon.item) or not attachmentConfig or not next(attachmentConfig) then
         return false, 'This weapon does not support attachments'
@@ -65,7 +65,7 @@ RegisterGunnyCallback('whip_gunny:installAttachment', { near = BENCH_NEAR, param
     { 'weapon',     'slot', { item = GunnyWeaponItems } },
     { 'attachment', 'slot', { item = GunnyAttachmentItems } },
 } },
-function(source, player, weapon, attachment)
+function(source, _, weapon, attachment)
     local weaponAddr = weapon.addr
     local attachmentName = attachment.item
     local attachmentConfig = Config.GetAttachment(attachmentName)
@@ -109,7 +109,7 @@ RegisterGunnyCallback('whip_gunny:removeAttachment', { near = BENCH_NEAR, params
     { 'weapon',   'slot', { item = GunnyWeaponItems } },
     { 'category', 'key',  64 },
 } },
-function(source, player, weapon, category)
+function(source, _, weapon, category)
     local weaponAddr = weapon.addr
     local meta = weapon.metadata or {}
     local attachmentName = (meta.attachments or {})[category]

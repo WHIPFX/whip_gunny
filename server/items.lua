@@ -230,18 +230,18 @@ local function registerWithWhip()
     end
 
     -- From a pile's prompt (`how.from == 'ground'`): straight into the hand, no draw animation.
-    action('whip_gunny:equip_weapon', function(source, player, slotData, addr, how)
+    action('whip_gunny:equip_weapon', function(source, _, _, addr, how)
         TriggerClientEvent('whip_gunny:client:useWeapon', source, addr.slot, addr.sub, type(how) == 'table' and how.from == 'ground')
     end)
 
     -- The load waits for its bar (server/magazines.lua): its own thread, so the action's handler does not wait.
-    action('whip_gunny:load_mag', function(source, player, slotData, addr)
+    action('whip_gunny:load_mag', function(source, _, slotData, addr)
         if not Config.GetMagazine(slotData.item) then return end
         CreateThread(function() GunnyLoadMagazine(source, addr) end)
     end)
 
     -- A refusal is answered `false, why`: whip_core shows the player why, and records it.
-    action('whip_gunny:unload_mag', function(source, player, slotData, addr)
+    action('whip_gunny:unload_mag', function(source, _, slotData, addr)
         if not Config.GetMagazine(slotData.item) then return false, 'That is not a magazine' end
         local ok, why, unloaded = GunnyUnloadMagazine(source, addr)
         if not ok then return false, why end
