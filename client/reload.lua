@@ -36,8 +36,8 @@ local function holdFire(on)
     if on == fireHeld then return end
     fireHeld = on
     local ok, why
-    if on then ok, why = Whip.call('BlockControls', FIRE_BLOCK, { controls = FIRE_CONTROLS })
-    else ok, why = Whip.call('UnblockControls', FIRE_BLOCK) end
+    if on then ok, why = Whip.core:BlockControls(FIRE_BLOCK, { controls = FIRE_CONTROLS })
+    else ok, why = Whip.core:UnblockControls(FIRE_BLOCK) end
     if ok ~= true then GunnyDebugPrint('Reload: the fire keys could not be', on and 'held' or 'let go', why) end
 end
 
@@ -66,7 +66,7 @@ RegisterCommand('+gunny_reload', function()
     if not Config.IsFirearm(CurrentWeapon.config) then return end
     if isReloading then return end
     -- Not while a bar, a screen or anything else owns the keys (the furnisher uses R).
-    if Whip.call('IsGameInputFree') ~= true then return end
+    if Whip.core:IsGameInputFree() ~= true then return end
     if seatRefusesReload() then return end
 
     GunnyStartReload()
@@ -326,8 +326,8 @@ local function holdGunKeys(on)
     on = on == true
     if on == gunKeysHeld then return end
     local ok, why
-    if on then ok, why = Whip.call('BlockControls', GUN_BLOCK, { controls = GUN_CONTROLS })
-    else ok, why = Whip.call('UnblockControls', GUN_BLOCK) end
+    if on then ok, why = Whip.core:BlockControls(GUN_BLOCK, { controls = GUN_CONTROLS })
+    else ok, why = Whip.core:UnblockControls(GUN_BLOCK) end
     if ok == true or not on then
         gunKeysHeld = on
     elseif not blockRefusalSaid then
@@ -361,8 +361,8 @@ Whip.register(function()
     })
     if not ok then print('[GUNNY] no reload on the controller: ' .. tostring(why)) end
 end)
-GunnyAfterDraw(function() Whip.call('SetPadActionReady', 'gunny_reload', gunDrawn()) end)
-GunnyAfterHolster(function() Whip.call('SetPadActionReady', 'gunny_reload', false) end)
+GunnyAfterDraw(function() Whip.core:SetPadActionReady('gunny_reload', gunDrawn()) end)
+GunnyAfterHolster(function() Whip.core:SetPadActionReady('gunny_reload', false) end)
 
 -- An empty gun stays in the hand instead of GTA swapping it away. A FiveM switch that stays set until gunny
 -- stops: once per draw, as each call adds a stop handler inside FiveM (every frame would pile them up).
@@ -433,7 +433,7 @@ end
 -- or not, as G does in GTA: the one key, so a check never plays while the player means to detonate.
 RegisterCommand('+gunny_check_ammo', function()
     -- G is the furnisher's snap key too.
-    if Whip.call('IsGameInputFree') ~= true then return end
+    if Whip.core:IsGameInputFree() ~= true then return end
     if GunnyDetonateStickyBombs() then return end
 
     if not CurrentWeapon then return end

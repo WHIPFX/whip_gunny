@@ -233,7 +233,7 @@ local benchCamera = false   -- whip_core's camera is up for the bench
 local function startBenchCamera()
     local pos, rot = benchCameraPlacement()
     -- No exit key: the bench page shuts it. Busy (another resource's camera is up): the bench opens without it.
-    local ok = Whip.call('PlayCamera', { pos = pos, rot = rot, fov = 50.0, transitionIn = 500, transitionOut = 500,
+    local ok = Whip.core:PlayCamera({ pos = pos, rot = rot, fov = 50.0, transitionIn = 500, transitionOut = 500,
                                          exitKey = false, async = true })
     benchCamera = ok == true
 end
@@ -241,7 +241,7 @@ end
 local function stopBenchCamera()
     if not benchCamera then return end
     benchCamera = false
-    Whip.call('StopCamera')   -- through Whip.call: our own code (the page's close, a death, a holster)
+    Whip.core:StopCamera()   -- through Whip.core: our own code (the page's close, a death, a holster)
 end
 
 -- ============================================
@@ -289,7 +289,7 @@ function openBench()   -- the local declared above
 
     benchOpen = true
     -- A screen is open: whip's HUD, minimap, chat and prompts stand aside (IsAnyUIOpen).
-    Whip.call('SetUIOpen', true)
+    Whip.core:SetUIOpen(true)
     startBenchCamera()
 
     SendNUIMessage({
@@ -314,7 +314,7 @@ function closeBench()   -- the local declared above
     SendNUIMessage({ action = 'close' })
     hideGun()
     stopBenchCamera()
-    Whip.call('SetUIOpen', false)
+    Whip.core:SetUIOpen(false)
 end
 
 -- Dying or logging out at the bench closes it, and so does the gun leaving the hands (a forced holster, the hands

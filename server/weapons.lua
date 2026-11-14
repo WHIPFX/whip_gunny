@@ -162,9 +162,9 @@ function(source, _, weapon)
         if cap and held > cap then
             meta.ammo = cap
             if exports.whip_core:SetItemMetadata(weapon.addr, meta) then
-                -- Through Whip.call: the gun is lowered and the rounds in nobody's pockets until they land.
+                -- Through Whip.core: the gun is lowered and the rounds in nobody's pockets until they land.
                 local ammoItem = Config.GetAmmoItemForWeapon(slotData.item)
-                local back = ammoItem and Whip.call('AddItem', source, ammoItem, held - cap, nil,
+                local back = ammoItem and Whip.core:AddItem(source, ammoItem, held - cap, nil,
                     'more than the gun holds now')
                 if not back then
                     -- Nowhere to put them: left in the gun rather than lost, if it is still the gun lowered (AddItem
@@ -172,7 +172,7 @@ function(source, _, weapon)
                     local now = GunnyStillThere(weapon.addr, slotData.item, meta.serial)
                     local nowMeta = now and now.metadata or {}
                     nowMeta.ammo = (tonumber(nowMeta.ammo) or 0) + (held - cap)
-                    if now and Whip.call('SetItemMetadata', weapon.addr, nowMeta) == true then
+                    if now and Whip.core:SetItemMetadata(weapon.addr, nowMeta) == true then
                         meta.ammo = nowMeta.ammo   -- the draw goes on with what the gun holds now
                     else
                         GunnyWarn('%d rounds of %s LOST (nowhere to put them, and the gun could not keep them)', held - cap, slotData.item)

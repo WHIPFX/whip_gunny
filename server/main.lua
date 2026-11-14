@@ -4,9 +4,9 @@
 -- items themselves are registered in server/items.lua.
 --
 -- CALLING WHIP_CORE, on the server: the docs' one rule (docs.html#patterns-calling) — exports.whip_core:X straight
--- inside a handler whip_core runs (it is up then), Whip.call outside one (a console command). gunny goes one step
+-- inside a handler whip_core runs (it is up then), Whip.core outside one (a console command). gunny goes one step
 -- further than the rule needs: inside a handler too, a call that can wait (AddItem: full pockets drop the item on the
--- ground; Progress: a bar) and everything after such a wait (an undo: GunnyStillThere, below) go through Whip.call,
+-- ground; Progress: a bar) and everything after such a wait (an undo: GunnyStillThere, below) go through Whip.core,
 -- so a failure answers false and why instead of throwing, and the half-made change can be undone or said lost. (The
 -- client's rule is at the top of client/main.lua.)
 
@@ -64,12 +64,12 @@ function GunnyWarn(fmt, ...)
     print(('[GUNNY] WARNING: %s'):format(ok and msg or fmt))
 end
 
---- An undo: give back what a half-done change already took. Through Whip.call, as AddItem may wait (full pockets
+--- An undo: give back what a half-done change already took. Through Whip.core, as AddItem may wait (full pockets
 --- drop it on the ground) and an answer must come even if whip_core stops meanwhile. Answers whether it landed; when
 --- it did not, the item is lost, and that is said.
 ---@return boolean
 function GunnyGiveBack(source, item, amount, metadata, reason)
-    local where, why = Whip.call('AddItem', source, item, amount, metadata, reason)
+    local where, why = Whip.core:AddItem(source, item, amount, metadata, reason)
     if where then return true end
     GunnyWarn('%d x %s LOST: %s, and it could not be given back (%s)', amount, item, reason, tostring(why))
     return false
@@ -77,13 +77,13 @@ end
 
 --- Read a slot again after a wait (AddItem, a bar): what is in it, if it is still `item` with `serial`, or nil (moved,
 --- replaced, or whip_core gone meanwhile). The read before an undo, so the undo lands on the thing it took from.
---- Through Whip.call: it comes after a wait, and an answer must come even if whip_core stopped during it.
+--- Through Whip.core: it comes after a wait, and an answer must come even if whip_core stopped during it.
 ---@param addr table      the slot (GunnyPocket)
 ---@param item string     the item it held
 ---@param serial string|nil  the serial it had
 ---@return table|nil slotData  { item, amount, metadata }
 function GunnyStillThere(addr, item, serial)
-    local sd = Whip.call('GetItemAt', addr)
+    local sd = Whip.core:GetItemAt(addr)
     if type(sd) == 'table' and sd.item == item and (sd.metadata or {}).serial == serial then return sd end
     return nil
 end

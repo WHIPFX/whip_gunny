@@ -61,9 +61,9 @@ function(source, _, weapon)
     local countVersion = GunnyCountChanged(source, weaponAddr, meta.serial)
 
     if oldMag then
-        -- To the pockets, or the ground when they are full. Through Whip.call: the reload is half done until it lands.
+        -- To the pockets, or the ground when they are full. Through Whip.core: the reload is half done until it lands.
         local oldItem, oldMeta = GunnyMagazineOut(oldMag)
-        local where = Whip.call('AddItem', source, oldItem, 1, oldMeta, 'swapped out of a weapon')
+        local where = Whip.core:AddItem(source, oldItem, 1, oldMeta, 'swapped out of a weapon')
         if not where then
             -- Nowhere at all: the reload is undone rather than the old magazine lost. Read again: AddItem waited, and
             -- the new magazine goes back as it is now (shots fired meanwhile came out of it).
@@ -72,7 +72,7 @@ function(source, _, weapon)
             if now and inIt and inIt.serial == meta.magazine.serial then
                 local newItem, newMeta = GunnyMagazineOut(now.metadata.magazine)
                 now.metadata.magazine = oldMag
-                if Whip.call('SetItemMetadata', weaponAddr, now.metadata) == true then
+                if Whip.core:SetItemMetadata(weaponAddr, now.metadata) == true then
                     GunnyGiveBack(source, newItem, 1, newMeta, 'reload undone')
                     -- The gun's count changed again: the client takes it, and the version raised above, with no
                     -- gesture (client/weapons.lua). Its counts would be ignored from here otherwise.
