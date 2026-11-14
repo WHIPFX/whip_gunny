@@ -101,8 +101,8 @@ local function runLoad(source, magAddr)
     local startedAt = GetGameTimer()
     local ped = GetPlayerPed(source)
     local seated = ped ~= 0 and GetVehiclePedIsIn(ped, false) ~= 0
-    -- Through Whip.call: it waits for the bar, and gunny calls whatever waits that way (server/main.lua's rule).
-    local done, barWhy = Whip.call('Progress', source, {
+    -- Through Whip.core: it waits for the bar, and gunny calls whatever waits that way (server/main.lua's rule).
+    local done, barWhy = Whip.core:Progress(source, {
         label     = ('Loading %d rounds into magazine'):format(plan.toLoad),
         duration  = plan.toLoad * MS_PER_ROUND,
         canCancel = true,
@@ -142,7 +142,7 @@ local function runLoad(source, magAddr)
     end
     local toLoad = math.min(count, now.toLoad)
 
-    local removed = exports.whip_core:RemoveItem(source, now.ammoItem, toLoad, 'loaded into a magazine')
+    local removed = exports.whip_core:RemoveItem(source, now.ammoItem, toLoad, nil, { reason = 'loaded into a magazine' })
     if not removed then
         exports.whip_core:NotifyPlayer(source, 'Failed to load bullets', 'error')
         return false, 'Failed to load bullets'
@@ -256,9 +256,9 @@ function GunnyUnloadMagazine(source, magAddr, count)
         return false, 'Could not unload: the magazine was not changed'
     end
 
-    -- Into their pockets or not at all: `noDrop` makes AddItem refuse when the rounds do not fit. Through Whip.call:
+    -- Into their pockets or not at all: `noDrop` makes AddItem refuse when the rounds do not fit. Through Whip.core:
     -- the magazine is already lowered, so an answer must come even if whip_core stops meanwhile.
-    local added = Whip.call('AddItem', source, caliber.ammoItem, toUnload, nil,
+    local added = Whip.core:AddItem(source, caliber.ammoItem, toUnload, nil,
         { reason = 'unloaded from a magazine', noDrop = true })
     if not added then
         -- No room: the rounds go back into the magazine, if it is still the one lowered (AddItem can wait), onto
@@ -266,7 +266,7 @@ function GunnyUnloadMagazine(source, magAddr, count)
         local now = GunnyStillThere(magAddr, slotData.item, meta.serial)
         local nowMeta = now and now.metadata or {}
         nowMeta.ammo = (tonumber(nowMeta.ammo) or 0) + toUnload
-        if not (now and Whip.call('SetItemMetadata', magAddr, nowMeta) == true) then
+        if not (now and Whip.core:SetItemMetadata(magAddr, nowMeta) == true) then
             GunnyWarn('unload: %d rounds of %s LOST (no room for them, and the magazine could not take them back)',
                 toUnload, slotData.item)
         end

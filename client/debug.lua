@@ -27,7 +27,7 @@ end
 
 --- Reset the counters, so a test run starts from zero.
 RegisterCommand('gunnydebugreset', function()
-    if Whip.call('HasDevTools') ~= true then
+    if Whip.core:HasDevTools() ~= true then
         GunnyNotify('That needs developer mode on (/w)', 'error')
         return
     end
@@ -42,7 +42,7 @@ end, false)
 -- /ammoledger: where the rounds went, this game's half (the rounds the ped really lost against the rounds charged) in
 -- F8, then the server's ledger (server/ledger.lua) in F8 and its console. /ammoledger reset starts both again.
 RegisterCommand('ammoledger', function(_, args)
-    if Whip.call('HasDevTools') ~= true then
+    if Whip.core:HasDevTools() ~= true then
         GunnyNotify('That needs developer mode on (/w)', 'error')
         return
     end

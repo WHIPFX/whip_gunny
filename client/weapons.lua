@@ -7,7 +7,7 @@
 local EQUIP_ANIM_DICT = 'reaction@intimidation@cop@unarmed'
 
 CreateThread(function()
-    if Whip.call('LoadAnimDict', EQUIP_ANIM_DICT, 10000) ~= true then
+    if Whip.core:LoadAnimDict(EQUIP_ANIM_DICT, 10000) ~= true then
         print('[GUNNY] equip animation dictionary failed to preload — equipping will still work, just less smoothly')
     end
 end)
@@ -45,7 +45,7 @@ end
 local permitRefusalSaid = {}
 local function permitGun(hash, on)
     if not hash then return end
-    local ok = Whip.call('PermitNativeWeapon', hash, on)
+    local ok = Whip.core:PermitNativeWeapon(hash, on)
     if on and ok ~= true and not permitRefusalSaid[hash] then
         permitRefusalSaid[hash] = true
         print(('[GUNNY] WARNING: whip_core\'s weapon guard did not permit weapon %s, so it may take it away'):format(tostring(hash)))
@@ -152,7 +152,7 @@ function DrawWeapon(slot, pocket, quick)
         return false, 'Finish reloading first'
     end
     -- A resource has blocked the hands, or weapons (whip_core's BlockHands): a no-weapons zone, a restraint.
-    local blocked, why = Whip.call('AreHandsBlocked', 'weapon')
+    local blocked, why = Whip.core:AreHandsBlocked('weapon')
     if blocked == true then
         GunnyNotify(why, 'error')
         return false, why
@@ -198,7 +198,7 @@ function DrawWeapon(slot, pocket, quick)
     drawing = nil
 
     -- Died during the draw: the death holster found no gun yet, so it goes back on the server, and nothing is given.
-    if Whip.call('IsPlayerDead') == true then
+    if Whip.core:IsPlayerDead() == true then
         if not tellHolstered(ammo, drawn.countVersion) then
             print('[GUNNY] WARNING: the server refused the holster of a gun drawn as the player died')
         end
@@ -312,8 +312,8 @@ local function holdFire(on)
     if on == fireHeld then return end
     fireHeld = on
     local ok, why
-    if on then ok, why = Whip.call('BlockControls', AWAY_BLOCK, { groups = { 'combat', 'vehicleCombat' } })
-    else ok, why = Whip.call('UnblockControls', AWAY_BLOCK) end
+    if on then ok, why = Whip.core:BlockControls(AWAY_BLOCK, { groups = { 'combat', 'vehicleCombat' } })
+    else ok, why = Whip.core:UnblockControls(AWAY_BLOCK) end
     if ok ~= true then GunnyDebugPrint('Holster: the fire keys could not be', on and 'held' or 'let go', why) end
 end
 

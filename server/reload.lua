@@ -61,9 +61,9 @@ function(source, _, weapon)
     local countVersion = GunnyCountChanged(source, weaponAddr, meta.serial)
 
     if oldMag then
-        -- To the pockets, or the ground when they are full. Through Whip.call: the reload is half done until it lands.
+        -- To the pockets, or the ground when they are full. Through Whip.core: the reload is half done until it lands.
         local oldItem, oldMeta = GunnyMagazineOut(oldMag)
-        local where = Whip.call('AddItem', source, oldItem, 1, oldMeta, 'swapped out of a weapon')
+        local where = Whip.core:AddItem(source, oldItem, 1, oldMeta, 'swapped out of a weapon')
         if not where then
             -- Nowhere at all: the reload is undone rather than the old magazine lost. Read again: AddItem waited, and
             -- the new magazine goes back as it is now (shots fired meanwhile came out of it).
@@ -72,7 +72,7 @@ function(source, _, weapon)
             if now and inIt and inIt.serial == meta.magazine.serial then
                 local newItem, newMeta = GunnyMagazineOut(now.metadata.magazine)
                 now.metadata.magazine = oldMag
-                if Whip.call('SetItemMetadata', weaponAddr, now.metadata) == true then
+                if Whip.core:SetItemMetadata(weaponAddr, now.metadata) == true then
                     GunnyGiveBack(source, newItem, 1, newMeta, 'reload undone')
                     -- The gun's count changed again: the client takes it, and the version raised above, with no
                     -- gesture (client/weapons.lua). Its counts would be ignored from here otherwise.
@@ -115,7 +115,7 @@ function(source, _, weapon)
     local toLoad = math.min(room, have)
 
     -- Take before give: the rounds out of the pockets, then into the gun; given back if the gun cannot record them.
-    if not exports.whip_core:RemoveItem(source, ammoItemName, toLoad, 'loaded into a weapon') then
+    if not exports.whip_core:RemoveItem(source, ammoItemName, toLoad, nil, { reason = 'loaded into a weapon' }) then
         return false, 'Could not take the rounds, try again'
     end
     meta.ammo = currentAmmo + toLoad
@@ -199,7 +199,7 @@ RegisterGunnyEvent('whip_gunny:server:loopedReloadEnded', {
     local space = weaponConfig.internalCapacity - ((sd.metadata or {}).ammo or 0)
     local have = exports.whip_core:GetItemCount(source, r.ammoItem) or 0
     local take = math.max(0, math.min(loaded, space, have))
-    if take > 0 and not exports.whip_core:RemoveItem(source, r.ammoItem, take, 'loaded into a weapon') then
+    if take > 0 and not exports.whip_core:RemoveItem(source, r.ammoItem, take, nil, { reason = 'loaded into a weapon' }) then
         take = 0
     end
 

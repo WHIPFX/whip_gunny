@@ -145,7 +145,7 @@ local function regItem(itemName, def, newMeta)
         return false, err
     end
     if newMeta then
-        local metaOk, metaWhy = exports.whip_core:RegisterItemDefaultMeta(itemName, newMeta)
+        local metaOk, metaWhy = exports.whip_core:RegisterItemDefaultMetadata(itemName, newMeta)
         if not metaOk then Whip.startProblem('item "%s": its new-item metadata refused: %s', tostring(itemName), tostring(metaWhy)) end
     end
     return true
@@ -283,7 +283,7 @@ end
 --- - the jerry can: `fuel`, 0-100; a throwable: `amount`, the stack (1 if none). A throwable carries no metadata.
 --- Rounds are held to what the gun or the magazine holds. Answers true and where it went, as AddItem does:
 --- 'inventory', or 'ground' at their feet when it did not fit; and its serial, to find it again with whip_core's
---- FindItemByMeta('serial', serial) (a throwable has none: a stack is not one thing).
+--- FindItemByMetadata('serial', serial) (a throwable has none: a stack is not one thing).
 exports('GiveWeapon', function(source, weaponName, overrides, reason)
     local weaponConfig = Config.GetWeapon(weaponName)
     if not weaponConfig then return false, 'Unknown weapon: ' .. tostring(weaponName) end
@@ -292,7 +292,7 @@ exports('GiveWeapon', function(source, weaponName, overrides, reason)
 
     if Config.IsThrowable(weaponConfig) then
         local amount = math.max(1, math.floor(tonumber(overrides.amount) or 1))
-        local where, err = Whip.call('AddItem', source, weaponName, amount, nil, reason)
+        local where, err = Whip.core:AddItem(source, weaponName, amount, nil, reason)
         if not where then return false, err end
         return true, where
     end
@@ -332,9 +332,9 @@ exports('GiveWeapon', function(source, weaponName, overrides, reason)
         end
     end
 
-    -- AddItem answers where it went ('inventory' or 'ground'), or false and why. Through Whip.call, as it can wait
+    -- AddItem answers where it went ('inventory' or 'ground'), or false and why. Through Whip.core, as it can wait
     -- (full pockets drop it on the ground; server/main.lua says when gunny calls whip_core which way).
-    local where, err = Whip.call('AddItem', source, weaponName, 1, meta, reason)
+    local where, err = Whip.core:AddItem(source, weaponName, 1, meta, reason)
     if not where then return false, err end
     return true, where, meta.serial
 end)
@@ -345,7 +345,7 @@ exports('GiveMagazine', function(source, magName, ammo, reason)
     local magConfig = Config.GetMagazine(magName)
     if not magConfig then return false, 'Unknown magazine: ' .. tostring(magName) end
     local meta = { serial = GunnyNewSerial(), ammo = rounds(ammo, tonumber(magConfig.capacity)) }
-    local where, err = Whip.call('AddItem', source, magName, 1, meta, reason)
+    local where, err = Whip.core:AddItem(source, magName, 1, meta, reason)
     if not where then return false, err end
     return true, where, meta.serial
 end)

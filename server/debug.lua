@@ -16,7 +16,7 @@ end)
 AddEventHandler('playerDropped', function() GunnyDebugFor[source] = nil end)
 
 -- The console, or a player with developer mode on (Whip.command's dev gate). A command runs whether whip_core is up or
--- not, so its calls go through Whip.call, which answers false instead of throwing (server/main.lua).
+-- not, so its calls go through Whip.core, which answers false instead of throwing (server/main.lua).
 Whip.command('gunnydebugserver', { dev = true, whileDead = true }, function(source)
     if source == 0 then
         print('[GUNNY] drawn weapons:')
@@ -26,6 +26,6 @@ Whip.command('gunnydebugserver', { dev = true, whileDead = true }, function(sour
         return
     end
     local d = EquippedWeapons[source]
-    Whip.call('NotifyPlayer', source, d and ('Drawn: %s in slot %d (%s), serial %s'):format(d.weapon, d.slot, d.pocket,
+    Whip.core:NotifyPlayer(source, d and ('Drawn: %s in slot %d (%s), serial %s'):format(d.weapon, d.slot, d.pocket,
         tostring(d.serial)) or 'Nothing drawn', 'info')
 end)
