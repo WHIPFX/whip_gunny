@@ -6,7 +6,7 @@
 
 --- What the bench page shows: the gun, what is fitted and the slots it has, and every attachment the player carries.
 --- Only what the server alone knows: the attachment config is a shared script the client already has. Opening the bench
---- asks for it, and a fit or a removal answers with it, as it is after. Through Whip.call: a removal reads it after
+--- asks for it, and a fit or a removal answers with it, as it is after. Through Whip.core: a removal reads it after
 --- AddItem's wait, and whip_core gone meanwhile only empties the list.
 ---@param source number
 ---@param weaponItem string
@@ -16,7 +16,7 @@ local function benchData(source, weaponItem, meta)
     local carried = {}
     for _, attName in ipairs(GunnyAttachmentItems) do
         -- Each found is whip's { item, amount, metadata, addr }; the page names one back by its slot and pocket.
-        local all = Whip.call('FindAllItems', source, attName)
+        local all = Whip.core:FindAllItems(source, attName)
         for _, found in ipairs(type(all) == 'table' and all or {}) do
             local attConfig = Config.GetAttachment(found.item)
             if attConfig then
@@ -130,9 +130,9 @@ function(source, _, weapon, category)
     if type(meta.attachmentUids) == 'table' then meta.attachmentUids[category] = nil end
     if not exports.whip_core:SetItemMetadata(weaponAddr, meta) then return false, 'Could not save the weapon' end
 
-    -- Through Whip.call: the attachment is off the gun and in nobody's pockets until it lands. It gives or drops, so
+    -- Through Whip.core: the attachment is off the gun and in nobody's pockets until it lands. It gives or drops, so
     -- it fails only with nowhere at all to go: then back onto the weapon, if it is still there (known by its serial).
-    local added = Whip.call('AddItem', source, attachmentName, 1, fitted, 'taken off a weapon')
+    local added = Whip.core:AddItem(source, attachmentName, 1, fitted, 'taken off a weapon')
     if not added then
         local now = GunnyStillThere(weaponAddr, weapon.item, meta.serial)
         local refitted = false
@@ -144,7 +144,7 @@ function(source, _, weapon, category)
                 nowMeta.attachmentMeta = nowMeta.attachmentMeta or {}
                 nowMeta.attachmentMeta[category] = fitted
             end
-            refitted = Whip.call('SetItemMetadata', weaponAddr, nowMeta) == true
+            refitted = Whip.core:SetItemMetadata(weaponAddr, nowMeta) == true
         end
         if not refitted then GunnyWarn('take off: %s LOST (nowhere to put it, and the weapon could not take it back)', attachmentName) end
         return false, 'No room for the attachment'

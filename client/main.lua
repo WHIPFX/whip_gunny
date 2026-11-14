@@ -8,17 +8,17 @@
 --   dependency), so the tick never outlives it;
 --   so is a call behind Whip.isReady() that answers at once, with no wait between the two (a weapon pack's item
 --   settings, below);
---   everything else goes through Whip.call, which answers `false, why` instead of throwing when whip_core is down,
+--   everything else goes through Whip.core, which answers `false, why` instead of throwing when whip_core is down,
 --   and answers a wait even if whip_core stops meanwhile. Its answer is checked wherever a refusal changes what
 --   happens next; a close (StopCamera, SetUIOpen false) or a load whose failure the next step already survives
 --   needs no check.
 
 --- Ask one of this resource's server callbacks by its full name ('whip_gunny:equipWeapon', server/main.lua), so the
 --- name searched for here is the one on the server. Answers what the handler answered, or `false, why` when whip
---- refused the call (too far away, asked too often, no answer). Through Whip.call, so a whip_core stop mid-call
+--- refused the call (too far away, asked too often, no answer). Through Whip.core, so a whip_core stop mid-call
 --- answers `false, 'whip_core stopped'` instead of never.
 function GunnyCallback(name, ...)
-    return Whip.call('Callback', name, ...)
+    return Whip.core:Callback(name, ...)
 end
 
 --- A pocket slot as one value, for a server handler with whip's 'slot' param: whip_core checks the pocket is the
@@ -64,14 +64,14 @@ end
 ---@return boolean
 function GunnyLoadModel(model)
     if HasModelLoaded(model) then return true end
-    if type(Whip.call('LoadModel', model, 5000)) == 'number' then return true end
+    if type(Whip.core:LoadModel(model, 5000)) == 'number' then return true end
     print('[GUNNY] WARNING: a model did not load: ' .. tostring(model))
     return false
 end
 
 --- A notification to this player: 'error' unless said.
 function GunnyNotify(msg, kind)
-    Whip.call('Notify', msg, kind or 'error')
+    Whip.core:Notify(msg, kind or 'error')
 end
 
 -- A weapon pack's item arriving while whip_core runs: its Items page settings followed here too (shared/catalog.lua
@@ -177,7 +177,7 @@ local function RegisterClientWithWhip()
     -- once, as whip_core:hands:blocked puts it away in client/weapons.lua, with nothing said.
     local function holsterFirst()
         if not IsWeaponDrawn() then return end
-        GunnyHolster(false, GunnyReloadUnderWay() and Whip.call('AreHandsBlocked') == true)
+        GunnyHolster(false, GunnyReloadUnderWay() and Whip.core:AreHandsBlocked() == true)
     end
 
     local ok, why = exports.whip_core:RegisterClientHook('beforeGiveMode', holsterFirst)

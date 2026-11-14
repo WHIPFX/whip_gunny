@@ -22,7 +22,7 @@ local HOLD_MS, GAP_MS = 100, 220
 -- A pad is in the player's hands: asked once whip_core is up, then whip_core says when it changes (settled over
 -- 400 ms), so the tick never asks.
 local onPad = false
-Whip.register(function() onPad = Whip.call('IsControllerActive') == true end)
+Whip.register(function() onPad = Whip.core:IsControllerActive() == true end)
 AddEventHandler('whip_core:pad:deviceChanged', function(d) onPad = type(d) == 'table' and d.pad == true end)
 
 -- Aiming on; RB's press while it is down ({ at, toggle, firing }); when the last tap ended.
@@ -51,8 +51,8 @@ local blockRefusalSaid = false
 local function setPadBlock(state)
     if state == padBlock then return end
     local ok, why
-    if state then ok, why = Whip.call('BlockControls', PAD_BLOCK, { controls = BLOCKS[state] })
-    else ok, why = Whip.call('UnblockControls', PAD_BLOCK) end
+    if state then ok, why = Whip.core:BlockControls(PAD_BLOCK, { controls = BLOCKS[state] })
+    else ok, why = Whip.core:UnblockControls(PAD_BLOCK) end
     if ok == true or not state then
         padBlock = state
     elseif not blockRefusalSaid then

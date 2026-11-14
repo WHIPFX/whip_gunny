@@ -17,7 +17,7 @@ local loadAsks = {}      -- [ask] = the promise LoadBullets waits on, answered b
 function LoadBullets(slot, pocket)
     if not Whip.isReady() then return false, 'whip_core is not running' end
     -- Another bar is already up (a second press while loading).
-    if Whip.call('IsProgressActive') == true then return false, 'Busy' end
+    if Whip.core:IsProgressActive() == true then return false, 'Busy' end
     loadSeq = loadSeq + 1
     local ask, p = loadSeq, promise.new()
     loadAsks[ask] = p
@@ -216,7 +216,7 @@ local function draw(loaderId)
     CreateThread(function()
         -- The clip's dictionary on this screen too (another player's load): its length times the clicks. Not checked:
         -- if it did not load, the clip is never seen playing below, and the wait gives up.
-        Whip.call('LoadAnimDict', DICT, 3000)
+        Whip.core:LoadAnimDict(DICT, 3000)
         -- Not until the clip is playing: a bar that is refused (another already up) never plays it, and drawing at
         -- once would flash a magazine into the hands of someone doing something else.
         local untilT = GetGameTimer() + START_WAIT_MS
