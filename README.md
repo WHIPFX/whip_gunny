@@ -5,8 +5,8 @@ example of a resource built the way whip expects.
 
 ## Install
 
-It comes in the `[whip]` folder, and `ensure [whip]` starts it (after whip_core: its manifest asks for it). Nothing
-else to set up, no SQL. The items appear in /whip → Economy → Items, ready to sell in shops or hand out.
+WHIP's txAdmin recipe installs it and adds `ensure whip_gunny` to server.cfg (whip_core starts first: its manifest asks for it).
+Nothing else to set up, no SQL. The items appear in /whip → Economy → Items, ready to sell in shops or hand out.
 
 ## Docs
 
