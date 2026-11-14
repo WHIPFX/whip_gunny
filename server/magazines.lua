@@ -142,7 +142,7 @@ local function runLoad(source, magAddr)
     end
     local toLoad = math.min(count, now.toLoad)
 
-    local removed = exports.whip_core:RemoveItem(source, now.ammoItem, toLoad, 'loaded into a magazine')
+    local removed = exports.whip_core:RemoveItem(source, now.ammoItem, toLoad, nil, { reason = 'loaded into a magazine' })
     if not removed then
         exports.whip_core:NotifyPlayer(source, 'Failed to load bullets', 'error')
         return false, 'Failed to load bullets'

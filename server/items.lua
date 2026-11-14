@@ -145,7 +145,7 @@ local function regItem(itemName, def, newMeta)
         return false, err
     end
     if newMeta then
-        local metaOk, metaWhy = exports.whip_core:RegisterItemDefaultMeta(itemName, newMeta)
+        local metaOk, metaWhy = exports.whip_core:RegisterItemDefaultMetadata(itemName, newMeta)
         if not metaOk then GunnyWarn('item "%s": its new-item metadata refused: %s', tostring(itemName), tostring(metaWhy)) end
     end
     return true
@@ -287,7 +287,7 @@ end
 --- - the jerry can: `fuel`, 0-100; a throwable: `amount`, the stack (1 if none). A throwable carries no metadata.
 --- Rounds are held to what the gun or the magazine holds. Answers true and where it went, as AddItem does:
 --- 'inventory', or 'ground' at their feet when it did not fit; and its serial, to find it again with whip_core's
---- FindItemByMeta('serial', serial) (a throwable has none: a stack is not one thing).
+--- FindItemByMetadata('serial', serial) (a throwable has none: a stack is not one thing).
 exports('GiveWeapon', function(source, weaponName, overrides, reason)
     local weaponConfig = Config.GetWeapon(weaponName)
     if not weaponConfig then return false, 'Unknown weapon: ' .. tostring(weaponName) end
