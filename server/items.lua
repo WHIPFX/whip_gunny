@@ -141,12 +141,12 @@ end
 local function regItem(itemName, def, newMeta)
     local ok, err = exports.whip_core:RegisterItem(itemName, def)
     if not ok then
-        GunnyWarn('item "%s" refused: %s', tostring(itemName), tostring(err))
+        Whip.startProblem('item "%s" refused: %s', tostring(itemName), tostring(err))
         return false, err
     end
     if newMeta then
         local metaOk, metaWhy = exports.whip_core:RegisterItemDefaultMeta(itemName, newMeta)
-        if not metaOk then GunnyWarn('item "%s": its new-item metadata refused: %s', tostring(itemName), tostring(metaWhy)) end
+        if not metaOk then Whip.startProblem('item "%s": its new-item metadata refused: %s', tostring(itemName), tostring(metaWhy)) end
     end
     return true
 end
@@ -172,25 +172,21 @@ local function onSettingChanged(itemName, field)
 end
 
 local function registerWithWhip()
-    local registered = 0
-    local function count(ok) if ok then registered = registered + 1 end end
-
     -- A weapon pack's item whip_core refuses (its name is another resource's item) leaves gunny's tables, after the
     -- loops: nothing may draw or load it (shared/packs.lua).
     local refused = {}
-    local function countItem(itemName, ok, why)
-        count(ok)
+    local function noteRefused(itemName, ok, why)
         if not ok and GunnyPacks.owner[itemName] then refused[itemName] = why end
     end
 
-    for itemName in pairs(Config.Weapons) do countItem(itemName, registerWeapon(itemName)) end
-    for itemName in pairs(Config.Magazines) do countItem(itemName, registerMagazine(itemName)) end
+    for itemName in pairs(Config.Weapons) do noteRefused(itemName, registerWeapon(itemName)) end
+    for itemName in pairs(Config.Magazines) do noteRefused(itemName, registerMagazine(itemName)) end
     for itemName, why in pairs(refused) do GunnyPacks.refused(itemName, why) end
 
     local registeredAmmo = {}
     for _, caliberData in pairs(Config.Calibers or {}) do
         if caliberData.ammoItem and not registeredAmmo[caliberData.ammoItem] then
-            count(regItem(caliberData.ammoItem, {
+            regItem(caliberData.ammoItem, {
                 name     = caliberData.label and (caliberData.label .. ' Round') or caliberData.ammoItem,
                 desc     = caliberData.label and (caliberData.label .. ' ammunition') or 'Ammunition',
                 weight   = caliberData.ammoWeight or 0.01,
@@ -198,13 +194,13 @@ local function registerWithWhip()
                 stack    = true,
                 maxStack = 999,
                 prop     = caliberData.prop,
-            }))
+            })
             registeredAmmo[caliberData.ammoItem] = true
         end
     end
 
     for itemName, attData in pairs(Config.Attachments or {}) do
-        count(regItem(itemName, {
+        regItem(itemName, {
             name     = attData.label or itemName,
             desc     = attData.description or (attData.label .. ' weapon attachment'),
             weight   = attData.weight or 0.2,
@@ -212,13 +208,12 @@ local function registerWithWhip()
             stack    = false,
             maxStack = 1,
             prop     = attData.prop,
-        }))
+        })
     end
 
     -- Every gun's magazine slot, after the items: a panel naming an item whip_core has never heard of is refused.
-    local slots = 0
     for itemName in pairs(Config.Weapons) do
-        if RegisterGunnyMagPanel(itemName) then slots = slots + 1 end
+        RegisterGunnyMagPanel(itemName)
     end
 
     -- The right-click actions. whip hands each the item's address (addr.sub is the pocket). Action names are
@@ -226,7 +221,7 @@ local function registerWithWhip()
     -- magazine slot's, server/magpanel.lua.)
     local function action(name, fn)
         local ok, why = exports.whip_core:RegisterContextAction(name, fn)
-        if not ok then print(('[GUNNY] ERROR: context action %s refused: %s'):format(name, tostring(why))) end
+        if not ok then Whip.startProblem('context action %s refused: %s', name, tostring(why)) end
     end
 
     -- From a pile's prompt (`how.from == 'ground'`): straight into the hand, no draw animation.
@@ -248,13 +243,14 @@ local function registerWithWhip()
         exports.whip_core:NotifyPlayer(source, ('Unloaded %d rounds from magazine'):format(unloaded), 'success')
     end)
 
-    print(('[GUNNY] %d items and %d magazine slots registered with whip_core'):format(registered, slots))
-
     -- The sizes and reload times set on the Items page, into gunny's tables: now, and at each change.
     Config.FollowItemSettings(onSettingChanged)
 end
 
 Whip.register(registerWithWhip)
+
+-- One line in the console once everything has registered: started, or what went wrong.
+Whip.sayStarted()
 
 -- A weapon pack's item arriving while whip_core runs: registered now, with its magazine slot and settings. (Before
 -- whip_core is up, registerWithWhip takes it in with the rest. One that goes stays an item: players carry it.)

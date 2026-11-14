@@ -23,7 +23,7 @@ end
 local function changed(itemName, kind, gone)
     for _, fn in ipairs(listeners) do
         local ok, err = pcall(fn, itemName, kind, gone)
-        if not ok then print(('[GUNNY] WARNING: taking in pack item %s errored: %s'):format(itemName, tostring(err))) end
+        if not ok then Whip.startProblem('taking in pack item %s errored: %s', itemName, tostring(err)) end
     end
 end
 
@@ -67,8 +67,8 @@ local function warnUnknownTiers(itemName, att, owner)
                 if a.category == category and a.tier == tier then known = true break end
             end
             if not known then
-                print(('[GUNNY] WARNING: %s\'s weapon %s: no attachment in items/attachments.lua is a %s %s, so that one never fits')
-                    :format(owner, itemName, tostring(tier), category))
+                Whip.startProblem('%s\'s weapon %s: no attachment in items/attachments.lua is a %s %s, so that one never fits',
+                    owner, itemName, tostring(tier), category)
             end
         end
     end
@@ -96,7 +96,7 @@ function GunnyPacks.refused(itemName, why)
     local owner = GunnyPacks.owner[itemName]
     if not owner then return end
     refusals[itemName] = tostring(why or 'refused')
-    print(('[GUNNY] WARNING: %s\'s item %s left out: whip_core refused it (%s)'):format(owner, itemName, refusals[itemName]))
+    Whip.startProblem('%s\'s item %s left out: whip_core refused it (%s)', owner, itemName, refusals[itemName])
     local wasMagazine = Config.Magazines[itemName] ~= nil
     forget(itemName)
     if not wasMagazine then return end

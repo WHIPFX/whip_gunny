@@ -186,14 +186,14 @@ end
 for itemName, m in pairs(Config.Magazines) do
     local why = Config.MagazineProblem(m)
     if why then
-        print(('[GUNNY] WARNING: magazine %s left out: %s'):format(itemName, why))
+        Whip.startProblem('magazine %s left out: %s', itemName, why)
         Config.Magazines[itemName] = nil
     end
 end
 for itemName, w in pairs(Config.Weapons) do
     local why = Config.WeaponProblem(w)
     if why then
-        print(('[GUNNY] WARNING: weapon %s left out: %s'):format(itemName, why))
+        Whip.startProblem('weapon %s left out: %s', itemName, why)
         Config.Weapons[itemName] = nil
     end
 end

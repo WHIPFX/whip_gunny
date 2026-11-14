@@ -158,6 +158,6 @@ function RegisterGunnyMagPanel(weaponItem)
         write      = writeWeaponPanel,
         onChange   = onWeaponPanelChange,
     })
-    if not ok then GunnyWarn('could not register the magazine panel for "%s": %s', weaponItem, tostring(err)) end
+    if not ok then Whip.startProblem('could not register the magazine panel for "%s": %s', weaponItem, tostring(err)) end
     return ok == true
 end
