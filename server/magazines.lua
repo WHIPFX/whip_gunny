@@ -91,6 +91,7 @@ end
 local function runLoad(source, magAddr)
     local plan, why = planLoad(source, magAddr)
     if not plan then
+        ---@cast why -nil   -- planLoad says why whenever it has no plan
         exports.whip_core:NotifyPlayer(source, why, 'error')
         return false, why
     end
@@ -203,7 +204,7 @@ RegisterGunnyEvent('whip_gunny:server:loadMagazine', {
         local ask = math.tointeger(tonumber(type(raw) == 'table' and raw[2] or nil))
         if ask and ask > 0 then TriggerClientEvent('whip_gunny:client:loadDone', source, ask, false, why) end
     end,
-}, function(source, player, mag, ask)
+}, function(source, _, mag, ask)
     CreateThread(function()
         local ok, result = GunnyLoadMagazine(source, mag.addr)
         TriggerClientEvent('whip_gunny:client:loadDone', source, ask, ok, result)
@@ -282,7 +283,7 @@ end
 RegisterGunnyCallback('whip_gunny:unloadBulletsFromMag', { params = {
     { 'mag',   'slot', { item = GunnyMagazineItems } },
     { 'count', 'int',  1, 9999, 9999 },
-} }, function(source, player, mag, count)
+} }, function(source, _, mag, count)
     local ok, left, unloaded = GunnyUnloadMagazine(source, mag.addr, count)
     if not ok then return false, left end
     return true, { left = left, unloaded = unloaded }

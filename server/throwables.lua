@@ -13,7 +13,7 @@ RegisterGunnyEvent('whip_gunny:server:thrown', {
     params = {
         {'count', 'int', 1, 10, 1},
     },
-}, function(source, player, count)
+}, function(source, _, count)
     local slotData, equipped = GunnyDrawnWeapon(source)
     if not equipped then GunnyNoDrawRecord(source) return end
     if not slotData then

@@ -9,7 +9,7 @@ RegisterGunnyEvent('whip_gunny:server:debug', {
     rateLimit = 500,
     burst     = 3,
     params = { { 'on', 'bool' } },
-}, function(source, player, on)
+}, function(source, _, on)
     GunnyDebugFor[source] = on or nil
 end)
 

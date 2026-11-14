@@ -257,7 +257,7 @@ local function draw(loaderId)
         while current() do
             ped = pedOf(loaderId)
             local clip = ped and playingClip(ped)
-            if not clip then break end
+            if not ped or not clip then break end
             local phase = GetEntityAnimCurrentTime(ped, DICT, clip)
             SetEntityVisible(props.round, roundShown(phase), false)
             if last and crossedCue(last, phase, cues) then seatSound(ped) end

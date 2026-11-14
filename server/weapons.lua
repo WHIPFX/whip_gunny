@@ -77,7 +77,8 @@ AddEventHandler('whip_core:inventory:changed', function(e)
     local src = type(e) == 'table' and e.source or nil
     if not src or not EquippedWeapons[src] then return end
     local slotData, equipped = GunnyDrawnWeapon(src)
-    if equipped and not slotData then
+    if not equipped then return end   -- (the record checked just above: always there)
+    if not slotData then
         GunnyDebugPrint('Drawn weapon left its slot - holstering', src)
         GunnyForceHolster(src)
         return
@@ -129,7 +130,7 @@ end
 -- Draw: the weapon arrives as whip's 'slot' param (this player's own pocket, holding one of gunny's weapons). Answers
 -- true and { hash, ammo, magazine, attachments, serial, countVersion }, or false and why.
 RegisterGunnyCallback('whip_gunny:equipWeapon', { params = { { 'weapon', 'slot', { item = GunnyWeaponItems } } } },
-function(source, player, weapon)
+function(source, _, weapon)
     local slotData = weapon   -- whip's copy of the slot: { addr, item, amount, metadata }
 
     local weaponConfig = Config.GetWeapon(slotData.item)
@@ -257,7 +258,7 @@ RegisterGunnyCallback('whip_gunny:holsterWeapon', {
         {'remainingAmmo', 'int', 0, 9999},
         {'countVersion',  'int', 0, 2147483647, 0},   -- GunnyCountChanged
     },
-}, function(source, player, remainingAmmo, countVersion)
+}, function(source, _, remainingAmmo, countVersion)
     local slotData, equipped = GunnyDrawnWeapon(source)
     if not equipped then return false, 'No weapon drawn' end
     -- A gun that has left its slot is still put away; there is just no count to write back. Nor is there for a count

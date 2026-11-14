@@ -45,6 +45,8 @@ GunnyDebugOn = false
 --- firing, those in which the ped's rounds did not go down at all (each still charged one), those that went down by
 --- more than one report carries (10), the rounds the ped really lost, the rounds charged for them, and what an answer
 --- arriving during a reload took off the count the reload gave.
+---@class GunnyDebugCounts
+---@field lastJump { from: number, to: number, at: number }|nil  the last count that went up (client/shooting.lua)
 GunnyDebugCounts = { sent = 0, confirmed = 0, staleIgnored = 0, ammoJumps = 0, lastJump = nil,
                      serverAmmo = nil, serverAmmoAt = nil, lastShotAt = nil, lastReloadAt = nil,
                      firingFrames = 0, noRoundFrames = 0, overTenFrames = 0, gameRounds = 0, chargedRounds = 0,
@@ -74,7 +76,7 @@ end
 
 -- A weapon pack's item arriving while whip_core runs: its Items page settings followed here too (shared/catalog.lua
 -- follows the rest as whip_core is ready).
-GunnyPacks.onChange(function(itemName, kind, gone)
+GunnyPacks.onChange(function(itemName, _, gone)
     if not gone and Whip.isReady() then Config.FollowItemSettings(nil, itemName) end
 end)
 

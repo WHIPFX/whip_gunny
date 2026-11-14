@@ -101,6 +101,7 @@ end
 --- A gun with no magazine: the rounds it has room for, all at once.
 local function maglessReload()
     local gun = CurrentWeapon
+    ---@cast gun -nil   -- reloadNow checked there is one
 
     -- The server first; the animation only once it has said yes.
     local ok, result = GunnyCallback('whip_gunny:performMaglessReload', GunnySlot(gun.slot, gun.pocket))
@@ -146,6 +147,7 @@ end
 
 local function shellByShellReload(capacity)
     local gun = CurrentWeapon
+    ---@cast gun -nil   -- reloadNow checked there is one
     local ok, room = GunnyCallback('whip_gunny:beginLoopedReload', GunnySlot(gun.slot, gun.pocket))
     if not ok then
         GunnyNotify(type(room) == 'string' and room or 'Cannot reload', 'error')

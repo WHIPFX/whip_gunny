@@ -29,7 +29,7 @@ end
 -- R on a gun with magazines: the fullest one carried goes in, and the one in it comes out. Every refusal is a
 -- sentence the client shows as it is. The gun arrives as whip's 'slot' param (server/main.lua says what that checks).
 RegisterGunnyCallback('whip_gunny:performReload', { params = { { 'weapon', 'slot', { item = GunnyWeaponItems } } } },
-function(source, player, weapon)
+function(source, _, weapon)
     local weaponAddr = weapon.addr
     local weaponConfig = Config.GetWeapon(weapon.item)
     -- Only a modified client asks for anything but a gun: client/reload.lua stands down for the rest.
@@ -69,7 +69,7 @@ function(source, player, weapon)
             -- the new magazine goes back as it is now (shots fired meanwhile came out of it).
             local now = GunnyStillThere(weaponAddr, weapon.item, meta.serial)
             local inIt = now and (now.metadata or {}).magazine
-            if inIt and inIt.serial == meta.magazine.serial then
+            if now and inIt and inIt.serial == meta.magazine.serial then
                 local newItem, newMeta = GunnyMagazineOut(now.metadata.magazine)
                 now.metadata.magazine = oldMag
                 if Whip.call('SetItemMetadata', weaponAddr, now.metadata) == true then
@@ -98,7 +98,7 @@ end)
 
 -- R on a revolver or a tube-fed shotgun: as many rounds as it has room for and the player carries.
 RegisterGunnyCallback('whip_gunny:performMaglessReload', { params = { { 'weapon', 'slot', { item = GunnyWeaponItems } } } },
-function(source, player, weapon)
+function(source, _, weapon)
     local weaponAddr = weapon.addr
     local weaponConfig = Config.GetWeapon(weapon.item)
     if not (Config.IsFirearm(weaponConfig) and weaponConfig.magless) then return false, 'That weapon takes magazines' end
@@ -158,7 +158,7 @@ function GunnyLoopedReloadOpen(source, slot, pocket)
 end
 
 RegisterGunnyCallback('whip_gunny:beginLoopedReload', { params = { { 'weapon', 'slot', { item = GunnyWeaponItems } } } },
-function(source, player, weapon)
+function(source, _, weapon)
     local weaponConfig = Config.GetWeapon(weapon.item)
     if not weaponConfig or not weaponConfig.magless or not weaponConfig.loopedReload then
         return false, 'That weapon is not loaded a shell at a time'
@@ -184,7 +184,7 @@ RegisterGunnyEvent('whip_gunny:server:loopedReloadEnded', {
     rateLimit = 200,
     burst     = 3,   -- an end: never refused for coming close behind the last
     params = { {'loaded', 'int', 0, 250} },
-}, function(source, player, loaded)
+}, function(source, _, loaded)
     local r = loopedReloads[source]
     loopedReloads[source] = nil
     if not r or GetGameTimer() - r.at > LOOPED_REPORT_MS then return end
@@ -240,7 +240,7 @@ AddEventHandler('whip_gunny:weapon:holstered', function(e) loopedReloads[e.sourc
 -- rounds for a gun with none. Developer mode only, as the overlay is. Answers true and { count, totalAmmo, magless }.
 -- Here, not in server/debug.lua, as it counts with this file's bestMagazine.
 RegisterGunnyCallback('whip_gunny:countInventoryMags', { ace = 'whip.devtools', params = { { 'weaponName', 'key', 64 } } },
-function(source, player, weaponName)
+function(source, _, weaponName)
     local weaponConfig = Config.GetWeapon(weaponName)
     if not weaponConfig then return false, 'Not one of gunny\'s weapons' end
 

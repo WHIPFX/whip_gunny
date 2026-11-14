@@ -238,7 +238,7 @@ RegisterGunnyEvent('whip_gunny:server:ammoLedger', {
     rateLimit = 1000,
     burst = 2,
     params = { { 'reset', 'bool' } },
-}, function(source, player, reset)
+}, function(source, _, reset)
     if reset then
         local L = ledgers[source]
         ledgers[source] = nil
