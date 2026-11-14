@@ -9,6 +9,7 @@ version '2.0.0'
 whip_updates 'WHIPFX/whip_gunny'   -- whip_core checks this repository's releases for a newer version
 
 dependency 'whip_core'
+whip_requires '1.0'   -- the whip_core it is built for: the setup report flags an older one
 
 shared_scripts {
     -- whip's satellite helper, first: Whip.register declares to whip_core once it is ready. With the dependency above,
