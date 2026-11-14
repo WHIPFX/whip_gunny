@@ -115,7 +115,7 @@ function(source, _, weapon)
     local toLoad = math.min(room, have)
 
     -- Take before give: the rounds out of the pockets, then into the gun; given back if the gun cannot record them.
-    if not exports.whip_core:RemoveItem(source, ammoItemName, toLoad, 'loaded into a weapon') then
+    if not exports.whip_core:RemoveItem(source, ammoItemName, toLoad, nil, { reason = 'loaded into a weapon' }) then
         return false, 'Could not take the rounds, try again'
     end
     meta.ammo = currentAmmo + toLoad
@@ -199,7 +199,7 @@ RegisterGunnyEvent('whip_gunny:server:loopedReloadEnded', {
     local space = weaponConfig.internalCapacity - ((sd.metadata or {}).ammo or 0)
     local have = exports.whip_core:GetItemCount(source, r.ammoItem) or 0
     local take = math.max(0, math.min(loaded, space, have))
-    if take > 0 and not exports.whip_core:RemoveItem(source, r.ammoItem, take, 'loaded into a weapon') then
+    if take > 0 and not exports.whip_core:RemoveItem(source, r.ammoItem, take, nil, { reason = 'loaded into a weapon' }) then
         take = 0
     end
 

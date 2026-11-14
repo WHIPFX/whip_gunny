@@ -288,8 +288,8 @@ function openBench()   -- the local declared above
     if CurrentWeapon ~= gun or benchOpen then return end
 
     benchOpen = true
-    -- A screen is open: whip's HUD, minimap, chat and prompts stand aside (IsAnyUIOpen).
-    Whip.core:SetUIOpen(true)
+    -- A screen is open: whip's HUD, minimap, chat and prompts stand aside (IsAnyScreenOpen).
+    Whip.core:SetScreenOpen(true)
     startBenchCamera()
 
     SendNUIMessage({
@@ -314,7 +314,7 @@ function closeBench()   -- the local declared above
     SendNUIMessage({ action = 'close' })
     hideGun()
     stopBenchCamera()
-    Whip.core:SetUIOpen(false)
+    Whip.core:SetScreenOpen(false)
 end
 
 -- Dying or logging out at the bench closes it, and so does the gun leaving the hands (a forced holster, the hands

@@ -10,7 +10,7 @@
 --   settings, below);
 --   everything else goes through Whip.core, which answers `false, why` instead of throwing when whip_core is down,
 --   and answers a wait even if whip_core stops meanwhile. Its answer is checked wherever a refusal changes what
---   happens next; a close (StopCamera, SetUIOpen false) or a load whose failure the next step already survives
+--   happens next; a close (StopCamera, SetScreenOpen false) or a load whose failure the next step already survives
 --   needs no check.
 
 --- Ask one of this resource's server callbacks by its full name ('whip_gunny:equipWeapon', server/main.lua), so the
