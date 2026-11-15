@@ -57,7 +57,7 @@ local function spawnBench()
 
     local ok, why = exports.whip_core:AddAction({
         id       = 'weapon_bench',
-        at       = { coords = vector3(BENCH.coords.x, BENCH.coords.y, BENCH.coords.z) },
+        at       = { coords = vector3(BENCH.coords.x, BENCH.coords.y, BENCH.coords.z + 1.0) },   -- on the worktop, not the floor
         label    = BENCH.label or 'Weapon Bench',
         onSelect = function() openBench() end,
     })
