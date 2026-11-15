@@ -5,7 +5,7 @@ lua54 'yes'
 name 'whip_gunny'
 author 'Whippy'
 description 'Advanced Weapon System for whip_core'
-version '2.0.0'
+version '2.0.1'
 whip_updates 'WHIPFX/whip_gunny'   -- whip_core checks this repository's releases for a newer version
 
 dependency 'whip_core'
