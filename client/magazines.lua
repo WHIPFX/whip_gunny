@@ -188,8 +188,8 @@ end
 
 --- The loader's ped on this screen, or nil when they are not on it.
 local function pedOf(loaderId)
-    local player = Whip.playerIndex(loaderId)
-    if not player then return nil end
+    local player = GetPlayerFromServerId(loaderId)
+    if player == -1 then return nil end
     local ped = GetPlayerPed(player)
     if not ped or ped == 0 or not DoesEntityExist(ped) then return nil end
     return ped
